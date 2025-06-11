@@ -6,17 +6,17 @@
 local M = {}
 
 M.base46 = {
-  theme = "rosepine",
+	theme = "rosepine",
 }
 
 M.nvdash = { load_on_startup = true }
 
 M.mason = {
-  pkgs = {
-    "codelldb",
-    "rust-analyzer",
-    "debugpy",
-  },
+	pkgs = {
+		"codelldb",
+		"rust-analyzer",
+		"debugpy",
+	},
 }
 
 return M

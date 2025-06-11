@@ -6,7 +6,7 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 
-map("n", "nd", "yyP", { noremap = true, silent = true, desc = "Duplicate line" })
+map("n", "nd", "yyp$", { noremap = true, silent = true, desc = "Duplicate line" })
 
 map("t", "<Esc>", "<C-\\><C-n>", { noremap = true, desc = "Escape terminal mode" })
 
