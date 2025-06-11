@@ -17,6 +17,11 @@ return {
   config = function()
     local dap, dapui = require "dap", require "dapui"
 
+    dap.adapters.codelldb = {
+      type = "executable",
+      command = "codelldb",
+    }
+
     -- Add Rust-specific DAP configuration
     dap.configurations.rust = {
       {
