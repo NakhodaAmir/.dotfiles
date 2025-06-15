@@ -42,8 +42,6 @@ require "nvchad.autocmds"
 
 vim.schedule(function()
   require "configs.mappings"
-  vim.cmd "MasonUpdate"
-  require("nvchad.mason").install_all()
 end)
 
 vim.api.nvim_create_autocmd("BufDelete", {

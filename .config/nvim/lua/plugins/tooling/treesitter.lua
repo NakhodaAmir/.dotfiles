@@ -19,10 +19,8 @@ return {
       "javascript",
       "typescript",
       "python",
-      "powershell",
       "c",
       "cpp",
-      "latex",
       "fish"
     },
     highlight = {
