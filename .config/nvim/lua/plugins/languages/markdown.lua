@@ -17,6 +17,6 @@ return {
 		ft = "markdown",
 		lazy = false,
 
-    priority = 49,
+	   priority = 49,
 	},
 }

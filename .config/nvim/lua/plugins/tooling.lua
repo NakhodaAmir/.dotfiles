@@ -92,7 +92,7 @@ return {
 
 	{
 		"nvim-treesitter/nvim-treesitter",
-    dependencies = {"OXY2DEV/markview.nvim"},
+   dependencies = {"OXY2DEV/markview.nvim"},
     lazy = false,
 		build = ":TSUpdate", -- Automatically update parsers
 		event = { "BufReadPost", "BufNewFile" },
