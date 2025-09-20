@@ -74,6 +74,7 @@ return {
 						},
 					},
 				},
+        tailwindcss = {},
 			}
 
 			for name, opts in pairs(servers) do
